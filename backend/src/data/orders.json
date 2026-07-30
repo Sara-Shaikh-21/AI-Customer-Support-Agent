@@ -1,0 +1,29 @@
+[
+    {
+        "orderId": "ORD1001",
+        "customer": "Sara",
+        "product": "Apple AirPods Pro",
+        "status": "Shipped",
+        "expectedDelivery": "Tomorrow",
+        "returnEligible": true,
+        "refundStatus": "Not Initiated"
+    },
+    {
+        "orderId": "ORD1002",
+        "customer": "John",
+        "product": "Nike Running Shoes",
+        "status": "Delivered",
+        "expectedDelivery": "Delivered",
+        "returnEligible": true,
+        "refundStatus": "Completed"
+    },
+    {
+        "orderId": "ORD1003",
+        "customer": "Alex",
+        "product": "Samsung Galaxy S25",
+        "status": "Processing",
+        "expectedDelivery": "2 Days",
+        "returnEligible": false,
+        "refundStatus": "N/A"
+    }
+]

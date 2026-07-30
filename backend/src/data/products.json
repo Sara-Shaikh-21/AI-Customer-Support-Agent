@@ -1,0 +1,30 @@
+[
+    {
+        "id": "P101",
+        "name": "Apple AirPods Pro",
+        "price": 24999,
+        "stock": 12,
+        "category": "Electronics"
+    },
+    {
+        "id": "P102",
+        "name": "Nike Running Shoes",
+        "price": 5999,
+        "stock": 25,
+        "category": "Footwear"
+    },
+    {
+        "id": "P103",
+        "name": "Samsung Galaxy S25",
+        "price": 79999,
+        "stock": 8,
+        "category": "Mobiles"
+    },
+    {
+        "id": "P104",
+        "name": "Boat Rockerz Headphones",
+        "price": 2999,
+        "stock": 30,
+        "category": "Electronics"
+    }
+]
