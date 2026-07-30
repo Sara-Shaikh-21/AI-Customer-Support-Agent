@@ -1,0 +1,1 @@
+Built an AI-powered customer support platform using Azure AI Foundry (GPT-5 Mini) with tool calling, session memory, and agent-based workflows. Implemented product search, order tracking, return/refund automation, and human escalation using a React frontend and Node.js backend, designed for scalable cloud deployment.
