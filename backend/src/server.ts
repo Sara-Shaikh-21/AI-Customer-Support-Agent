@@ -11,8 +11,8 @@ app.use(express.json());
 app.post("/chat", chat);
 app.use("/api/admin", adminRoutes);
 
-const PORT = 5001;
+const PORT = Number(process.env.PORT) || 5001;
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
