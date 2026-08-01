@@ -9,12 +9,14 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "test-ai": "tsx src/test.ts",
-    "test-tool": "tsx src/testTool.ts"
+    "test-tool": "tsx src/testTool.ts",
+    "test-cosmos": "tsx src/testCosmos.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@azure/cosmos": "^4.10.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
