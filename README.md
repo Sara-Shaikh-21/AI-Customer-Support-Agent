@@ -257,7 +257,6 @@ https://github.com/Sara-Shaikh-21
 
 LinkedIn
 
-[(Add your LinkedIn)
 ](https://www.linkedin.com/in/sara-shaikh/)
 
 
