@@ -12,6 +12,32 @@ import {
     incrementAgent
 } from "../services/analyticsService.js";
 
+/**
+ * @openapi
+ * /chat:
+ *   post:
+ *     summary: Chat with the AI Customer Support Agent
+ *     tags:
+ *       - Chat
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               sessionId:
+ *                 type: string
+ *                 example: session123
+ *               message:
+ *                 type: string
+ *                 example: Where is my order?
+ *     responses:
+ *       200:
+ *         description: AI response
+ */
+
+
 export async function chat(req: Request, res: Response) {
     try {
         const { message, sessionId } = req.body;
