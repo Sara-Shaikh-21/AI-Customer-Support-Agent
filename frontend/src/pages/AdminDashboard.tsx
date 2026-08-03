@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 
 import { adminApi } from "../services/adminApi";
 
-import StatCard from "../components/dashboard/StatCard";
-import AgentChart from "../components/dashboard/AgentChart";
+
 import DashboardHeader from "../components/dashboard/DashboardHeader";
 import StatsGrid from "../components/dashboard/StatsGrid";
 import AgentUsage from "../components/dashboard/AgentUsage";
