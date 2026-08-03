@@ -74,6 +74,32 @@ Interactive Swagger/OpenAPI documentation for all backend APIs.
 
 ---
 
+ ## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **React 19** | Built the interactive user interface for the AI chat and admin dashboard. |
+| **TypeScript** | Added static typing for safer and more maintainable frontend and backend code. |
+| **Vite** | Fast frontend development server and production build tool. |
+| **Tailwind CSS** | Created a responsive and modern user interface. |
+| **Axios** | Handled communication between the React frontend and backend APIs. |
+| **Node.js** | JavaScript runtime for the backend server. |
+| **Express.js** | Built REST APIs for chat, analytics, and admin operations. |
+| **Azure OpenAI** | Powered the AI assistant with natural language understanding and function calling. |
+| **Azure AI Foundry** | Managed AI model deployment and inference. |
+| **Azure Cosmos DB** | Stored conversation history, analytics, and application data. |
+| **Docker** | Containerized the backend for consistent development and deployment. |
+| **Azure Container Apps** | Hosted the backend API in the cloud. |
+| **Azure Static Web Apps** | Hosted the React frontend with HTTPS and global CDN. |
+| **GitHub Actions** | Automated CI/CD pipelines for frontend and backend deployments. |
+| **Swagger (OpenAPI)** | Provided interactive API documentation and endpoint testing. |
+| **CORS** | Enabled secure communication between the frontend and backend. |
+| **UUID** | Generated unique session IDs for user conversations. |
+| **React Router** | Managed client-side routing and navigation. |
+| **Recharts** | Visualized analytics and dashboard metrics. |
+
+---
+
 # Architecture
 
 ```
@@ -231,19 +257,6 @@ Frontend
 - Azure Static Web Apps
 - GitHub Actions CI/CD
 
----
-
-# Future Improvements
-
-- JWT Authentication
-- Role Based Access
-- Streaming AI Responses
-- Redis Conversation Cache
-- Unit & Integration Tests
-- Kubernetes Deployment
-- Terraform Infrastructure
-- Custom Domain
-- Monitoring Dashboard
 
 ---
 
@@ -257,6 +270,6 @@ https://github.com/Sara-Shaikh-21
 
 LinkedIn
 
-(https://www.linkedin.com/in/sara-shaikh/)
+https://www.linkedin.com/in/sara-shaikh/
 
 
