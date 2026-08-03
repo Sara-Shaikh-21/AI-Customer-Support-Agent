@@ -13,6 +13,14 @@ app.use("/api/admin", adminRoutes);
 
 const PORT = Number(process.env.PORT) || 5001;
 
+app.get("/", (req, res) => {
+    res.json({
+        status: "CommerceAI API is running 🚀",
+        version: "1.0.0"
+    });
+});
+
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
